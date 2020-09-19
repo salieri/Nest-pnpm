@@ -1,0 +1,22 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "strictPropertyInitialization": false,
+        "outDir": "dist",
+        "rootDir": "src",
+        "declarationDir": "dist.d",
+    },    
+    "references": [
+        {
+            "path": "../../libs/my-library"
+        }
+    ],
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "dist.d"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "strictPropertyInitialization": false,
+        "outDir": "dist",
+        "rootDir": "src",
+        "declarationDir": "dist.d",
+    },    
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "dist.d"
+    ]
+}
