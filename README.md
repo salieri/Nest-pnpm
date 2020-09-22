@@ -5,22 +5,17 @@
 ## Installation
 
 ```bash
-$  npm install -g pnpm
-$  pnpm i -r
-$  pnpm run rebuild
+$  npm install -g @microsoft/rush
+$  rush update
+$  rush build
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ pnpm run start --filter @rajeev/my-app
-
-# watch mode
-$ pnpm run start:dev --filter @rajeev/my-app
-
-# production mode
-$ pnpm run start:prod --filter @rajeev/my-app
+$ cd apps/sample-nest
+$ rushx start:dev
 ```
 
 ## License
