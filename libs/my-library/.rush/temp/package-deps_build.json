@@ -1,0 +1,4 @@
+{
+  "files": {},
+  "arguments": "npm run clean && npm run compile "
+}
